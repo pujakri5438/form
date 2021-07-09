@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Register Form Start</title>
+    <link rel="stylesheet" href="css/form.css">
+  </head>
+
+  <body>
+    
+
+    <form class="signup-form" action="/register" method="post">
+    </form>
+
+  
+
+<form class="signup-form" action="/register" method="post">
+
+    <!-- form header -->
+    <div class="form-header">
+        <h1>Registration Form</h1>
+        *Required<br><br>
+    </div>
+
+    <!-- form body -->
+    <div class="form-body">
+        <label id="name">
+           <b> Name * </b><br><br><input class="input" type="text" name="Name" placeholder="Your name" size="20" required>
+            <div class="line-box">          
+
+                <div class="line"></div>        
+
+              </div> 
+        </label>
+        <div class="form-body">
+            <label id="fname">
+               <b> Father's Name * </b><br><br><input class="input" type="text" name="Name" placeholder="Your father's name" required>
+                <div class="line-box">          
+    
+                    <div class="line"></div>        
+    
+                  </div> 
+            </label>
+         
+        <label id="Email">
+           <b>  Email * </b><br><br><input class="input" type="email" name="Email" size="25" placeholder="Your email" required>
+            <div class="line-box">          
+
+                <div class="line"></div>        
+
+              </div> 
+        </label>
+        <div class="form-body">
+            <label id="address" >
+               <b> Address * </b><br><br><input class="input" type="textfield" name="Name" size="70" placeholder="Your permanent address" required>
+               
+                <div class="line-box">          
+    
+                    <div class="line"></div>        
+    
+                  </div> 
+            </label>
+        <label id="clg"><b>College *</b><br><br>
+            <select class="input" name="college" id="college" required>
+                <option value="">Your College</option>
+                <option value="nsec">Netaji Subhash Engineering College, Kolkata</option>
+                <option value="HIT">Heritage Institute of Technologoy, Kolkata</option>
+                <option value="bppoddar">B.P Poddar Institute of Management and Technology, Kolkata</option>
+                <option value="nit">NIT, Kolkata</option>
+                <option value="Other">Other</option>
+            </select>
+            <div class="line-box">          
+
+                <div class="line"></div>        
+
+              </div> 
+            </label > 
+        <label id="phone"><b>Phone:*</b><br><br>
+            <!-- <input name="country code" placeholder="Country Code"  value="+91" size="2"/>    -->
+            <input class="input" type="text" name="phone" placeholder="phone no." size="10" required> 
+            <div class="line-box">          
+
+                <div class="line"></div>        
+
+              </div> 
+
+        </label>
+        <label id="depart">
+           <legend><b> Department * </b></legend><br>
+            <input type="radio" name="department" id="cse" required>CSE<br>
+            <input type="radio" name="department" id="it" required>IT<br>
+            <input type="radio" name="department" id="bba" required>BBA<br>
+            <input type="radio" name="department" id="bca" required>BCA<br>
+            <input type="radio" name="department" id="mca" required>MCA<br>
+            <!-- Other: <input type="text" name="department" id="other"> -->         
+
+            <div class="line-box">          
+
+                       
+
+              </div>      
+        </label>
+        <label id="yr">
+            <legend><b> Year * </b></legend><br>
+             <input type="radio" name="year" id="1st" required>1st<br>
+             <input type="radio" name="year" id="2nd" required>2nd<br>
+             <input type="radio" name="year" id="3rd" required>3rd<br>
+             <input type="radio" name="year" id="4th" required>4th<br>
+           
+             <div class="line-box">          
+
+                       
+
+              </div>      
+ 
+    
+         </label>
+         <label class="input" id="DOB">
+             <legend><b>Date of Birth * </b></legend><br>
+             <input class="input" type="date" name="dob" id="d" required>
+             <div class="line-box">          
+ 
+                <div class="line"></div>        
+
+              </div>
+         </label>
+         <label class="input" id="imageupload">
+            <!-- <input type="file" name="fileToUpload" id="fileToUpload"> -->
+            <legend><b>Upload Your Image * </b></legend><br>
+            <input type="file" value="Upload Image" name="submit">
+            <div class="line-box">          
+ 
+                <div class="line"></div>        
+
+              </div>
+         </label>
+         <div class="input_field_checkbox_option">
+            <label for="cb1"> 
+            <input type="checkbox" id="cb1"> I agree with terms and conditions</label>
+            
+            
+        </div>
+         <label id="submit">
+            <button type="submit">Submit</button>
+            
+         </label>
+    </div>
+    
+    <!-- form footer -->
+    <footer id="footer">
+        <div class="container">
+          <p>This content is neither created nor endorsed by Google. Report Abuse - Terms of Service - Privacy Policy</p>
+          
+          <div class="copyright">
+            &copy; Copyright <strong><span>Puja</span></strong>. All Rights Reserved
+          </div>
+        </div>
+      </footer>
+
+</form>
+</body>
+</html>
+  
