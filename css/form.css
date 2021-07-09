@@ -1,12 +1,4 @@
-div{
-   width: 80%;
-}
 
-@media all and (min-width: 500px){
-    div{
-       width: 25%;
-    }
-}
 body {
   background-color: #c5e1a5;
   font-family: 'Poppins';
