@@ -36,6 +36,8 @@ body {
     border-radius: 25px;
     border-style: hidden;
     background-color: white;
+    height:fit-content;
+    width:fit-content;
   }
   /* .line{
       color: #000;
@@ -96,6 +98,8 @@ body {
     border-radius: 25px;
     border-style: hidden;
     background-color:white;
+    height:fit-content;
+    width:fit-content;
   }
   #submit {
     margin-left: 200px;
